@@ -1,0 +1,1 @@
+"""OS Simulator educational package."""

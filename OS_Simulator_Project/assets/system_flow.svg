@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+ <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#52627a"/></marker></defs>
+ <rect width="1100" height="620" rx="18" fill="#f4f6fb"/>
+ <text x="550" y="42" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="#16213e">OS Simulator — Application Flow</text>
+ <rect x="385" y="70" width="330" height="65" rx="12" fill="#dce7ff" stroke="#5979bd" stroke-width="2"/>
+ <text x="550" y="98" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#16213e">Launch Application</text><text x="550" y="119" text-anchor="middle" font-family="Arial" font-size="13" fill="#334155">main.py / Tkinter GUI</text>
+ <path d="M550 135 V175" stroke="#52627a" stroke-width="2" marker-end="url(#arrow)"/>
+ <rect x="350" y="180" width="400" height="60" rx="12" fill="#ffffff" stroke="#8795aa" stroke-width="2"/>
+ <text x="550" y="205" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1f2937">Select an OS Learning Module</text><text x="550" y="225" text-anchor="middle" font-family="Arial" font-size="13" fill="#596579">Validate user input</text>
+ <path d="M550 240 V270 H190 V300 M550 270 V300 M550 270 H910 V300" fill="none" stroke="#52627a" stroke-width="2" marker-end="url(#arrow)"/>
+ <rect x="55" y="305" width="270" height="105" rx="12" fill="#d8f3e8" stroke="#4d9a7c" stroke-width="2"/>
+ <text x="190" y="333" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#164e3c">CPU Scheduling</text><text x="190" y="359" text-anchor="middle" font-family="Arial" font-size="14" fill="#164e3c">FCFS · SJF · Priority</text><text x="190" y="381" text-anchor="middle" font-family="Arial" font-size="14" fill="#164e3c">Round Robin · Gantt timeline</text>
+ <rect x="415" y="305" width="270" height="105" rx="12" fill="#ffe8c7" stroke="#c18a3b" stroke-width="2"/>
+ <text x="550" y="333" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#754313">Deadlock Avoidance</text><text x="550" y="359" text-anchor="middle" font-family="Arial" font-size="14" fill="#754313">Banker's Algorithm</text><text x="550" y="381" text-anchor="middle" font-family="Arial" font-size="14" fill="#754313">Need matrix · Safe sequence</text>
+ <rect x="775" y="305" width="270" height="105" rx="12" fill="#eadfff" stroke="#8c6ab8" stroke-width="2"/>
+ <text x="910" y="333" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#4c2e70">Memory Management</text><text x="910" y="359" text-anchor="middle" font-family="Arial" font-size="14" fill="#4c2e70">FIFO · LRU · Optimal</text><text x="910" y="381" text-anchor="middle" font-family="Arial" font-size="14" fill="#4c2e70">Frame trace · Hits / faults</text>
+ <path d="M190 410 V455 H550 M550 410 V455 M910 410 V455 H550 V480" fill="none" stroke="#52627a" stroke-width="2" marker-end="url(#arrow)"/>
+ <rect x="330" y="485" width="440" height="65" rx="12" fill="#ffffff" stroke="#8795aa" stroke-width="2"/>
+ <text x="550" y="512" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#1f2937">Display Results and Metrics</text><text x="550" y="534" text-anchor="middle" font-family="Arial" font-size="13" fill="#596579">User can change inputs and run again</text>
+ <text x="550" y="590" text-anchor="middle" font-family="Arial" font-size="12" fill="#667085">Educational simulator only — no changes are made to the host operating system.</text>
+</svg>
